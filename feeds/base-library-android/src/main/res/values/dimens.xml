@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- standard metrics -->
+    <!-- margins -->
+    <dimen name="margin_xx_small">2dp</dimen>
+    <dimen name="margin_x_small">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+    <dimen name="margin_xx_large">40dp</dimen>
+    <dimen name="margin_xxx_large">48dp</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+    <dimen name="margin_xxx_huge">100dp</dimen>
+
+    <dimen name="margin_horizontally_inset">12dp</dimen>
+    <dimen name="dialog__margin_horizontally">24dp</dimen>
+
+    <!-- divider -->
+    <dimen name="divider_height">1px</dimen>
+
+    <!-- buttons -->
+    <dimen name="button_inset_horizontal">4dp</dimen>
+    <dimen name="button_inset_vertical">6dp</dimen>
+    <dimen name="button_radius">2dp</dimen>
+
+    <!-- cards -->
+    <dimen name="card_radius">2dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+
+    <!-- images -->
+    <dimen name="image__item_height">120dp</dimen>
+    <dimen name="images_rounded">6dp</dimen>
+
+    <!-- elevations -->
+    <dimen name="elevation__toolbar">4dp</dimen>
+
+
+</resources>

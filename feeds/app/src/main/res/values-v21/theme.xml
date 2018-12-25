@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- specify enter and exit transitions -->
+        <!-- options are: explode, slide, fade -->
+        <item name="android:windowEnterTransition">@transition/change_image_transform</item>
+        <item name="android:windowExitTransition">@transition/change_image_transform</item>
+
+        <!-- specify shared element transitions -->
+        <item name="android:windowSharedElementEnterTransition">
+            @transition/change_image_transform</item>
+        <item name="android:windowSharedElementExitTransition">
+            @transition/change_image_transform</item>
+    </style>
+    <style name="AppBaseTheme.Support.TranslucentStatusBar.Welcome">
+        <item name="android:colorBackground">@color/primary</item>
+        <item name="android:windowBackground">@color/primary</item>
+        <item name="android:navigationBarColor">@color/primary</item>
+    </style>
+
+    <style name="AppBaseTheme.Support.TranslucentStatusBar.Login">
+        <item name="android:navigationBarColor">@color/primary</item>
+    </style>
+
+    <style name="AppBaseTheme.Support.Home">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="AppBaseTheme.Support.Post" parent="AppBaseTheme.Support.TranslucentStatusBar">
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+
+
+
+
+    <style name="AppThemeTranslucentStatus" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+</resources>

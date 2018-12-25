@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="is_portrait">true</bool>
+
+    <integer name="image_size_width">800</integer>
+    <integer name="image_size_height">450</integer>
+
+
+</resources>

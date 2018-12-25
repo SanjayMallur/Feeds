@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CookPad</string>
+    <string name="unknown_error">Error from server</string>
+
+    <!--tool bar title-->
+    <string name="toolbar_title">Food</string>
+
+    <!--login and registration-->
+
+    <string name="login">Login</string>
+    <string name="sign_up">SignUp</string>
+    <!-- error -->
+    <string name="error__loading">Loading failed</string>
+    <string name="error__no_internet_connection">No internet connection</string>
+    <string name="error__check_internet_connection">Check internet connection</string>
+    <string name="error__request_error">Ups! Something went wrong :( \nPlease check again latter.</string>
+    <string name="error__unauthorized">Unauthorized action.</string>
+    <string name="error__try_again">Try again</string>
+</resources>

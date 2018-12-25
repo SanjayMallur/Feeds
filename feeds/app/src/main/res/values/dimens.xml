@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- standard metrics -->
+
+    <!-- elevations -->
+    <dimen name="elevation__toolbar">4dp</dimen>
+
+    <!-- Post details -->
+    <dimen name="post_details__header">300dp</dimen>
+
+
+</resources>

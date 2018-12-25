@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- main colors -->
+    <color name="primary">#69F0AE</color>
+    <color name="primary_dark">#5acc95</color>
+    <color name="primary_super_dark">#11261c</color>
+    <color name="accent">@color/primary</color>
+
+    <!-- backgrounds -->
+    <color name="background_light">#fff5f5f5</color> <!-- grey 50 -->
+    <color name="background_lightish">#ffececec</color> <!-- grey -->
+    <color name="background_dark">#ff333333</color>
+    <color name="background_super_dark">#ff292929</color>
+    <color name="background_status_bar">@color/primary_dark</color>
+    <color name="background_navigation_bar_color">#11261c</color>
+
+    <!-- dividers -->
+    <color name="divider">#1f000000</color> <!-- 12% black -->
+    <color name="divider_dark">#8a000000</color>
+    <color name="divider_light">#8affffff</color>
+
+    <!-- texts -->
+    <color name="text_primary_dark">#ff333333</color>
+    <color name="text_secondary_dark">#ff888888</color>
+    <color name="text_tertiary_dark">#ffb8b8b8</color>
+    <color name="text_highlighted_dark">#fff3aa01</color>
+    <color name="text_error_dark">#fff25f5c</color>
+
+    <color name="text_primary_light">#ffffffff</color>
+    <color name="text_secondary_light">#ffececec</color>
+    <color name="text_disabled_light">#4dffffff</color> <!-- 30% -->
+    <color name="text_highlighted_light">#fffdce60</color>
+    <color name="text_error_light">#fffe8d40</color>
+
+    <color name="hint_disabled_dark">#43000000</color> <!-- 26% black -->
+
+    <color name="scrim">#99323232</color>
+
+    <!-- Swipe refresh colors -->
+    <integer-array name="refreshColors">
+        <item>@color/primary</item>
+    </integer-array>
+
+    <!-- images -->
+    <color name="img_pressed">#80ffffff</color>
+    <color name="img_default">#eeeeee</color>
+
+
+    <!-- selectors -->
+    <color name="itemPressed">#80999999</color>
+
+
+
+</resources>

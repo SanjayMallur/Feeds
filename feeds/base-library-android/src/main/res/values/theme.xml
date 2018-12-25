@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:textColorHint">@color/hint_disabled_dark</item>
+        <item name="android:colorBackground">@color/background_lightish</item>
+        <item name="android:windowBackground">@color/background_lightish</item>
+    </style>
+
+    <style name="AppBaseTheme.Support"/>
+
+    <style name="AppBaseTheme.Support.TranslucentStatusBar"/>
+
+    <style name="AppBaseTheme.Support.Translucent">
+        <!-- using a semi-transparent window background for the drag-back gesture -->
+        <item name="android:windowBackground">@color/scrim</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppBaseTheme.Support.TranslucentStatusBar.Welcome">
+        <item name="android:colorBackground">@color/primary</item>
+        <item name="android:windowBackground">@color/primary</item>
+    </style>
+
+    <style name="AppBaseTheme.Support.TranslucentStatusBar.Login"/>
+
+    <style name="AppBaseTheme.Support.Home"/>
+
+    <style name="AppBaseTheme.Support.Post" parent="AppBaseTheme.Support.TranslucentStatusBar"/>
+
+
+    <style name="AppBaseTheme.Support.Translucent.Showcase">
+        <item name="android:windowBackground">@drawable/bg_showcase</item>
+    </style>
+
+
+    <style name="AppThemeTranslucentStatus" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+</resources>

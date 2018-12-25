@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="empty"
+            type="com.sanjay.baselibrary.data.helper.EmptyViewHandler"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:visibility="visible">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/text_title_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:drawableTop="@drawable/ic_empty_list"
+            android:drawablePadding="@dimen/margin_small"
+            android:text="@{empty.titleResId}"
+            android:textColor="@color/text_primary_dark"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            tools:text="@string/empty__title"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/text_message_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:gravity="center_horizontal"
+            android:text="@{empty.messageResId}"
+            android:textColor="@color/text_secondary_dark"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            tools:text="@string/empty__message"/>
+
+    </LinearLayout>
+</layout>

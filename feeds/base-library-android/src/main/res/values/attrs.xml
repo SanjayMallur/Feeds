@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Foreground ImageView -->
+    <declare-styleable name="ForegroundImageView">
+        <attr name="android:foreground"/>
+    </declare-styleable>
+
+    <declare-styleable name="DynamicImageView">
+        <attr name="aspectRatio" format="float"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Toolbar -->
+    <style name="AppBaseTheme.Toolbar.Dark" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </style>
+
+    <!-- Buttons -->
+    <style name="AppBaseTheme.Button" parent="@style/Widget.AppCompat.Button">
+        <item name="android:textColor">@color/text_primary_dark</item>
+    </style>
+
+    <style name="AppBaseTheme.Button.Colored" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/accent</item>
+        <item name="android:textColor">@color/text_primary_light</item>
+    </style>
+
+    <style name="AppBaseTheme.Button.Borderless" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/text_primary_dark</item>
+    </style>
+
+    <style name="AppBaseTheme.Button.Borderless.Colored" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+
+</resources>
