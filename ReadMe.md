@@ -1,4 +1,4 @@
-# Food feeds
+# Recipe feed
 
 This project is about showing list of user's post on Recyclerview with author name, details with receipe image. Clicking on each post takes to details page where user can see receipe with details .
 
